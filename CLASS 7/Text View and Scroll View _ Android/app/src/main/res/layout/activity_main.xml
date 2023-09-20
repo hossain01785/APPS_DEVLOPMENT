@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sss"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="169dp"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ScrollView
+        android:layout_width="441dp"
+        android:layout_height="249dp">
+
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="159dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt interdum mauris, eu dapibus ligula vestibulum eu. Praesent vel vestibulum nibh. Nulla vel justo eros. Ut erat dui, cursus facilisis viverra in, volutpat id dolor. Ut nisl est, lobortis id leo in, consectetur imperdiet eros. Donec in aliquam nisl. Donec.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt interdum mauris, eu dapibus ligula vestibulum eu. Praesent vel vestibulum nibh. Nulla vel justo eros. Ut erat dui, cursus facilisis viverra in, volutpat id dolor. Ut nisl est, lobortis id leo in, consectetur imperdiet eros. Donec in aliquam nisl. Donec."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </ScrollView>
+
+
+</LinearLayout>
